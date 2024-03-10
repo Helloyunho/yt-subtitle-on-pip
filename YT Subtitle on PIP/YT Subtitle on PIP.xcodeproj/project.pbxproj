@@ -1,0 +1,952 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55DC6F5E2B9DBA8A00BF078F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC6F5D2B9DBA8A00BF078F /* AppDelegate.swift */; };
+		55DC6F602B9DBA8A00BF078F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC6F5F2B9DBA8A00BF078F /* SceneDelegate.swift */; };
+		55DC6F632B9DBA8A00BF078F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F612B9DBA8A00BF078F /* LaunchScreen.storyboard */; };
+		55DC6F662B9DBA8A00BF078F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F642B9DBA8A00BF078F /* Main.storyboard */; };
+		55DC6F6F2B9DBA8A00BF078F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC6F6E2B9DBA8A00BF078F /* AppDelegate.swift */; };
+		55DC6F722B9DBA8A00BF078F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F702B9DBA8A00BF078F /* Main.storyboard */; };
+		55DC6F7A2B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 55DC6F792B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55DC6F842B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 55DC6F832B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55DC6F8A2B9DBA8A00BF078F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F4D2B9DBA8900BF078F /* Main.html */; };
+		55DC6F8B2B9DBA8A00BF078F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F4D2B9DBA8900BF078F /* Main.html */; };
+		55DC6F8C2B9DBA8A00BF078F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F4F2B9DBA8900BF078F /* Icon.png */; };
+		55DC6F8D2B9DBA8A00BF078F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F4F2B9DBA8900BF078F /* Icon.png */; };
+		55DC6F8E2B9DBA8A00BF078F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F502B9DBA8900BF078F /* Style.css */; };
+		55DC6F8F2B9DBA8A00BF078F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F502B9DBA8900BF078F /* Style.css */; };
+		55DC6F902B9DBA8A00BF078F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F512B9DBA8900BF078F /* Script.js */; };
+		55DC6F912B9DBA8A00BF078F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F512B9DBA8900BF078F /* Script.js */; };
+		55DC6F922B9DBA8A00BF078F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC6F522B9DBA8900BF078F /* ViewController.swift */; };
+		55DC6F932B9DBA8A00BF078F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC6F522B9DBA8900BF078F /* ViewController.swift */; };
+		55DC6F942B9DBA8A00BF078F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F532B9DBA8A00BF078F /* Assets.xcassets */; };
+		55DC6F952B9DBA8A00BF078F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6F532B9DBA8A00BF078F /* Assets.xcassets */; };
+		55DC6F962B9DBA8A00BF078F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC6F552B9DBA8A00BF078F /* SafariWebExtensionHandler.swift */; };
+		55DC6F972B9DBA8A00BF078F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC6F552B9DBA8A00BF078F /* SafariWebExtensionHandler.swift */; };
+		55DC6FB22B9DBA8B00BF078F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6FAA2B9DBA8B00BF078F /* images */; };
+		55DC6FB62B9DBA8B00BF078F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6FAE2B9DBA8B00BF078F /* manifest.json */; };
+		55DC6FB72B9DBA8B00BF078F /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6FAF2B9DBA8B00BF078F /* _locales */; };
+		55DC6FB82B9DBA8B00BF078F /* src in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6FB02B9DBA8B00BF078F /* src */; };
+		55DC6FBA2B9DBA8B00BF078F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6FAA2B9DBA8B00BF078F /* images */; };
+		55DC6FBE2B9DBA8B00BF078F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6FAE2B9DBA8B00BF078F /* manifest.json */; };
+		55DC6FBF2B9DBA8B00BF078F /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6FAF2B9DBA8B00BF078F /* _locales */; };
+		55DC6FC02B9DBA8B00BF078F /* src in Resources */ = {isa = PBXBuildFile; fileRef = 55DC6FB02B9DBA8B00BF078F /* src */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55DC6F7B2B9DBA8A00BF078F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DC6F472B9DBA8900BF078F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DC6F782B9DBA8A00BF078F;
+			remoteInfo = "YT Subtitle on PIP Extension (iOS)";
+		};
+		55DC6F852B9DBA8A00BF078F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DC6F472B9DBA8900BF078F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DC6F822B9DBA8A00BF078F;
+			remoteInfo = "YT Subtitle on PIP Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55DC6F9D2B9DBA8A00BF078F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				55DC6F7A2B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC6FA42B9DBA8A00BF078F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				55DC6F842B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55DC6F4E2B9DBA8900BF078F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		55DC6F4F2B9DBA8900BF078F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		55DC6F502B9DBA8900BF078F /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		55DC6F512B9DBA8900BF078F /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		55DC6F522B9DBA8900BF078F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55DC6F532B9DBA8A00BF078F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55DC6F552B9DBA8A00BF078F /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		55DC6F5A2B9DBA8A00BF078F /* YT Subtitle on PIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YT Subtitle on PIP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DC6F5D2B9DBA8A00BF078F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55DC6F5F2B9DBA8A00BF078F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55DC6F622B9DBA8A00BF078F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55DC6F652B9DBA8A00BF078F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55DC6F672B9DBA8A00BF078F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DC6F6C2B9DBA8A00BF078F /* YT Subtitle on PIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YT Subtitle on PIP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DC6F6E2B9DBA8A00BF078F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55DC6F712B9DBA8A00BF078F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55DC6F732B9DBA8A00BF078F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DC6F742B9DBA8A00BF078F /* YT Subtitle on PIP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "YT Subtitle on PIP.entitlements"; sourceTree = "<group>"; };
+		55DC6F792B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YT Subtitle on PIP Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DC6F7E2B9DBA8A00BF078F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DC6F832B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YT Subtitle on PIP Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DC6F882B9DBA8A00BF078F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DC6F892B9DBA8A00BF078F /* YT Subtitle on PIP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "YT Subtitle on PIP.entitlements"; sourceTree = "<group>"; };
+		55DC6FAA2B9DBA8B00BF078F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../images; sourceTree = "<group>"; };
+		55DC6FAE2B9DBA8B00BF078F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		55DC6FAF2B9DBA8B00BF078F /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../_locales; sourceTree = "<group>"; };
+		55DC6FB02B9DBA8B00BF078F /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DC6F572B9DBA8A00BF078F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC6F692B9DBA8A00BF078F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC6F762B9DBA8A00BF078F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC6F802B9DBA8A00BF078F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55DC6F462B9DBA8900BF078F = {
+			isa = PBXGroup;
+			children = (
+				55DC6F4B2B9DBA8900BF078F /* Shared (App) */,
+				55DC6F542B9DBA8A00BF078F /* Shared (Extension) */,
+				55DC6F5C2B9DBA8A00BF078F /* iOS (App) */,
+				55DC6F6D2B9DBA8A00BF078F /* macOS (App) */,
+				55DC6F7D2B9DBA8A00BF078F /* iOS (Extension) */,
+				55DC6F872B9DBA8A00BF078F /* macOS (Extension) */,
+				55DC6F5B2B9DBA8A00BF078F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55DC6F4B2B9DBA8900BF078F /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				55DC6F522B9DBA8900BF078F /* ViewController.swift */,
+				55DC6F532B9DBA8A00BF078F /* Assets.xcassets */,
+				55DC6F4C2B9DBA8900BF078F /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		55DC6F4C2B9DBA8900BF078F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55DC6F4D2B9DBA8900BF078F /* Main.html */,
+				55DC6F4F2B9DBA8900BF078F /* Icon.png */,
+				55DC6F502B9DBA8900BF078F /* Style.css */,
+				55DC6F512B9DBA8900BF078F /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55DC6F542B9DBA8A00BF078F /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				55DC6FA82B9DBA8B00BF078F /* Resources */,
+				55DC6F552B9DBA8A00BF078F /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		55DC6F5B2B9DBA8A00BF078F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DC6F5A2B9DBA8A00BF078F /* YT Subtitle on PIP.app */,
+				55DC6F6C2B9DBA8A00BF078F /* YT Subtitle on PIP.app */,
+				55DC6F792B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex */,
+				55DC6F832B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DC6F5C2B9DBA8A00BF078F /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				55DC6F5D2B9DBA8A00BF078F /* AppDelegate.swift */,
+				55DC6F5F2B9DBA8A00BF078F /* SceneDelegate.swift */,
+				55DC6F612B9DBA8A00BF078F /* LaunchScreen.storyboard */,
+				55DC6F642B9DBA8A00BF078F /* Main.storyboard */,
+				55DC6F672B9DBA8A00BF078F /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		55DC6F6D2B9DBA8A00BF078F /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				55DC6F6E2B9DBA8A00BF078F /* AppDelegate.swift */,
+				55DC6F702B9DBA8A00BF078F /* Main.storyboard */,
+				55DC6F732B9DBA8A00BF078F /* Info.plist */,
+				55DC6F742B9DBA8A00BF078F /* YT Subtitle on PIP.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		55DC6F7D2B9DBA8A00BF078F /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				55DC6F7E2B9DBA8A00BF078F /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		55DC6F872B9DBA8A00BF078F /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				55DC6F882B9DBA8A00BF078F /* Info.plist */,
+				55DC6F892B9DBA8A00BF078F /* YT Subtitle on PIP.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		55DC6FA82B9DBA8B00BF078F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55DC6FAA2B9DBA8B00BF078F /* images */,
+				55DC6FAE2B9DBA8B00BF078F /* manifest.json */,
+				55DC6FAF2B9DBA8B00BF078F /* _locales */,
+				55DC6FB02B9DBA8B00BF078F /* src */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DC6F592B9DBA8A00BF078F /* YT Subtitle on PIP (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DC6F9E2B9DBA8A00BF078F /* Build configuration list for PBXNativeTarget "YT Subtitle on PIP (iOS)" */;
+			buildPhases = (
+				55DC6F562B9DBA8A00BF078F /* Sources */,
+				55DC6F572B9DBA8A00BF078F /* Frameworks */,
+				55DC6F582B9DBA8A00BF078F /* Resources */,
+				55DC6F9D2B9DBA8A00BF078F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DC6F7C2B9DBA8A00BF078F /* PBXTargetDependency */,
+			);
+			name = "YT Subtitle on PIP (iOS)";
+			productName = "YT Subtitle on PIP (iOS)";
+			productReference = 55DC6F5A2B9DBA8A00BF078F /* YT Subtitle on PIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55DC6F6B2B9DBA8A00BF078F /* YT Subtitle on PIP (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DC6FA52B9DBA8A00BF078F /* Build configuration list for PBXNativeTarget "YT Subtitle on PIP (macOS)" */;
+			buildPhases = (
+				55DC6F682B9DBA8A00BF078F /* Sources */,
+				55DC6F692B9DBA8A00BF078F /* Frameworks */,
+				55DC6F6A2B9DBA8A00BF078F /* Resources */,
+				55DC6FA42B9DBA8A00BF078F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DC6F862B9DBA8A00BF078F /* PBXTargetDependency */,
+			);
+			name = "YT Subtitle on PIP (macOS)";
+			productName = "YT Subtitle on PIP (macOS)";
+			productReference = 55DC6F6C2B9DBA8A00BF078F /* YT Subtitle on PIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55DC6F782B9DBA8A00BF078F /* YT Subtitle on PIP Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DC6F9A2B9DBA8A00BF078F /* Build configuration list for PBXNativeTarget "YT Subtitle on PIP Extension (iOS)" */;
+			buildPhases = (
+				55DC6F752B9DBA8A00BF078F /* Sources */,
+				55DC6F762B9DBA8A00BF078F /* Frameworks */,
+				55DC6F772B9DBA8A00BF078F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YT Subtitle on PIP Extension (iOS)";
+			productName = "YT Subtitle on PIP Extension (iOS)";
+			productReference = 55DC6F792B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		55DC6F822B9DBA8A00BF078F /* YT Subtitle on PIP Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DC6FA12B9DBA8A00BF078F /* Build configuration list for PBXNativeTarget "YT Subtitle on PIP Extension (macOS)" */;
+			buildPhases = (
+				55DC6F7F2B9DBA8A00BF078F /* Sources */,
+				55DC6F802B9DBA8A00BF078F /* Frameworks */,
+				55DC6F812B9DBA8A00BF078F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YT Subtitle on PIP Extension (macOS)";
+			productName = "YT Subtitle on PIP Extension (macOS)";
+			productReference = 55DC6F832B9DBA8A00BF078F /* YT Subtitle on PIP Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DC6F472B9DBA8900BF078F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					55DC6F592B9DBA8A00BF078F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					55DC6F6B2B9DBA8A00BF078F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					55DC6F782B9DBA8A00BF078F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					55DC6F822B9DBA8A00BF078F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 55DC6F4A2B9DBA8900BF078F /* Build configuration list for PBXProject "YT Subtitle on PIP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55DC6F462B9DBA8900BF078F;
+			productRefGroup = 55DC6F5B2B9DBA8A00BF078F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DC6F592B9DBA8A00BF078F /* YT Subtitle on PIP (iOS) */,
+				55DC6F6B2B9DBA8A00BF078F /* YT Subtitle on PIP (macOS) */,
+				55DC6F782B9DBA8A00BF078F /* YT Subtitle on PIP Extension (iOS) */,
+				55DC6F822B9DBA8A00BF078F /* YT Subtitle on PIP Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DC6F582B9DBA8A00BF078F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DC6F8C2B9DBA8A00BF078F /* Icon.png in Resources */,
+				55DC6F632B9DBA8A00BF078F /* LaunchScreen.storyboard in Resources */,
+				55DC6F8A2B9DBA8A00BF078F /* Main.html in Resources */,
+				55DC6F902B9DBA8A00BF078F /* Script.js in Resources */,
+				55DC6F942B9DBA8A00BF078F /* Assets.xcassets in Resources */,
+				55DC6F662B9DBA8A00BF078F /* Main.storyboard in Resources */,
+				55DC6F8E2B9DBA8A00BF078F /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC6F6A2B9DBA8A00BF078F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DC6F8D2B9DBA8A00BF078F /* Icon.png in Resources */,
+				55DC6F8F2B9DBA8A00BF078F /* Style.css in Resources */,
+				55DC6F722B9DBA8A00BF078F /* Main.storyboard in Resources */,
+				55DC6F912B9DBA8A00BF078F /* Script.js in Resources */,
+				55DC6F952B9DBA8A00BF078F /* Assets.xcassets in Resources */,
+				55DC6F8B2B9DBA8A00BF078F /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC6F772B9DBA8A00BF078F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DC6FBA2B9DBA8B00BF078F /* images in Resources */,
+				55DC6FC02B9DBA8B00BF078F /* src in Resources */,
+				55DC6FBE2B9DBA8B00BF078F /* manifest.json in Resources */,
+				55DC6FBF2B9DBA8B00BF078F /* _locales in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC6F812B9DBA8A00BF078F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DC6FB22B9DBA8B00BF078F /* images in Resources */,
+				55DC6FB82B9DBA8B00BF078F /* src in Resources */,
+				55DC6FB62B9DBA8B00BF078F /* manifest.json in Resources */,
+				55DC6FB72B9DBA8B00BF078F /* _locales in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DC6F562B9DBA8A00BF078F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DC6F922B9DBA8A00BF078F /* ViewController.swift in Sources */,
+				55DC6F5E2B9DBA8A00BF078F /* AppDelegate.swift in Sources */,
+				55DC6F602B9DBA8A00BF078F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC6F682B9DBA8A00BF078F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DC6F932B9DBA8A00BF078F /* ViewController.swift in Sources */,
+				55DC6F6F2B9DBA8A00BF078F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC6F752B9DBA8A00BF078F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DC6F962B9DBA8A00BF078F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC6F7F2B9DBA8A00BF078F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DC6F972B9DBA8A00BF078F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DC6F7C2B9DBA8A00BF078F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DC6F782B9DBA8A00BF078F /* YT Subtitle on PIP Extension (iOS) */;
+			targetProxy = 55DC6F7B2B9DBA8A00BF078F /* PBXContainerItemProxy */;
+		};
+		55DC6F862B9DBA8A00BF078F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DC6F822B9DBA8A00BF078F /* YT Subtitle on PIP Extension (macOS) */;
+			targetProxy = 55DC6F852B9DBA8A00BF078F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55DC6F4D2B9DBA8900BF078F /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DC6F4E2B9DBA8900BF078F /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		55DC6F612B9DBA8A00BF078F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DC6F622B9DBA8A00BF078F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		55DC6F642B9DBA8A00BF078F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DC6F652B9DBA8A00BF078F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55DC6F702B9DBA8A00BF078F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DC6F712B9DBA8A00BF078F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55DC6F982B9DBA8A00BF078F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55DC6F992B9DBA8A00BF078F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		55DC6F9B2B9DBA8A00BF078F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YT Subtitle on PIP Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.YT-Subtitle-on-PIP.Extension";
+				PRODUCT_NAME = "YT Subtitle on PIP Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55DC6F9C2B9DBA8A00BF078F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YT Subtitle on PIP Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.YT-Subtitle-on-PIP.Extension";
+				PRODUCT_NAME = "YT Subtitle on PIP Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DC6F9F2B9DBA8A00BF078F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YT Subtitle on PIP";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.YT-Subtitle-on-PIP";
+				PRODUCT_NAME = "YT Subtitle on PIP";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55DC6FA02B9DBA8A00BF078F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YT Subtitle on PIP";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.YT-Subtitle-on-PIP";
+				PRODUCT_NAME = "YT Subtitle on PIP";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DC6FA22B9DBA8A00BF078F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/YT Subtitle on PIP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YT Subtitle on PIP Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.YT-Subtitle-on-PIP.Extension";
+				PRODUCT_NAME = "YT Subtitle on PIP Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		55DC6FA32B9DBA8A00BF078F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/YT Subtitle on PIP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YT Subtitle on PIP Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.YT-Subtitle-on-PIP.Extension";
+				PRODUCT_NAME = "YT Subtitle on PIP Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		55DC6FA62B9DBA8A00BF078F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/YT Subtitle on PIP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YT Subtitle on PIP";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.YT-Subtitle-on-PIP";
+				PRODUCT_NAME = "YT Subtitle on PIP";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		55DC6FA72B9DBA8A00BF078F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/YT Subtitle on PIP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YT Subtitle on PIP";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.helloyunho.YT-Subtitle-on-PIP";
+				PRODUCT_NAME = "YT Subtitle on PIP";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DC6F4A2B9DBA8900BF078F /* Build configuration list for PBXProject "YT Subtitle on PIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DC6F982B9DBA8A00BF078F /* Debug */,
+				55DC6F992B9DBA8A00BF078F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DC6F9A2B9DBA8A00BF078F /* Build configuration list for PBXNativeTarget "YT Subtitle on PIP Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DC6F9B2B9DBA8A00BF078F /* Debug */,
+				55DC6F9C2B9DBA8A00BF078F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DC6F9E2B9DBA8A00BF078F /* Build configuration list for PBXNativeTarget "YT Subtitle on PIP (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DC6F9F2B9DBA8A00BF078F /* Debug */,
+				55DC6FA02B9DBA8A00BF078F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DC6FA12B9DBA8A00BF078F /* Build configuration list for PBXNativeTarget "YT Subtitle on PIP Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DC6FA22B9DBA8A00BF078F /* Debug */,
+				55DC6FA32B9DBA8A00BF078F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DC6FA52B9DBA8A00BF078F /* Build configuration list for PBXNativeTarget "YT Subtitle on PIP (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DC6FA62B9DBA8A00BF078F /* Debug */,
+				55DC6FA72B9DBA8A00BF078F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55DC6F472B9DBA8900BF078F /* Project object */;
+}

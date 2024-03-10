@@ -1,0 +1,44 @@
+{
+    "manifest_version": 3,
+    "default_locale": "en",
+
+    "name": "YT Subtitle on PIP",
+    "description": "__MSG_extension_description__",
+    "author": "Helloyunho",
+    "version": "1.0.0",
+
+    "icons": {
+        "48": "images/YTSubPIP-48px-Icon.png",
+        "64": "images/YTSubPIP-64px-Icon.png",
+        "96": "images/YTSubPIP-96px-Icon.png",
+        "128": "images/YTSubPIP-128px-Icon.png",
+        "256": "images/YTSubPIP-256px-Icon.png",
+        "512": "images/YTSubPIP-512px-Icon.png",
+        "1024": "images/YTSubPIP-1024px-Icon.png"
+    },
+
+    "content_scripts": [{
+        "js": [ "src/injector.js" ],
+        "matches": [ "https://*.youtube.com/*" ],
+        "run_at": "document_idle"
+    }],
+
+    "host_permissions": [
+        "https://*.youtube.com/*"
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{15242AEA-6E05-4986-AE0E-4F960F50FF80}"
+        }
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "src/content.js"
+            ],
+            "matches": [
+                "https://*.youtube.com/*"
+            ]
+        }
+    ]
+}
